@@ -7,64 +7,56 @@
   <title>Página inicial</title>
   <link rel="shortcut icon" href="images/favicon.ico"/>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <style>
-    #footerimagem{
-      float: left;
-    }
-
-    #navegar{
-      float: right;
-    }
-  </style>
 </head>
 
 <body>
 
-  <header id="topo">
-      <nav id="navegar">
-        <a href="index.html">HOME</a>
-        |<a href="Evento.html">EVENTO</a>
-        |<a href="Sobre.html"> SOBRE</a>
-        |<a href="Contato.html"> CONTATO</a>
-        |<a href="Entrar.html"> ENTRAR </a>
-      </nav>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Cursos
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="ADS.html">Análise e Desenvolvimento de Sistemas</a>
+        <a href="https://google.com">Engenharia de Produção</a>
+        <a href="https://google.com">Gestão em TI</a>
+        <a href="https://google.com">Letras</a>
+        <a href="https://google.com">Gestão Pública</a>
+      </div>
+    </div>
+    <a href="Evento.html">EVENTO</a>
+    <a href="Sobre.html"> SOBRE</a>
+    <a href="Contato.html"> CONTATO</a>
+    <a href="Entrar.html"> ENTRAR </a>
+  </div>
 
-    <br>
-    <br>
+  <br>
+  <div id="abaixonav">
     <h3>Bem vindo a HOME do IFSP!</h3>
     <img src="images/Logo.jpg" />
+  </div>
 
-  </header>
-
-  <section>
-    <h4>Cursos</h4>
-      <ul>
-        <a href="ADS.html"><li>Análise e Desenvolvimento de Sistemas </li></a>
-        <a href="https://google.com"><li>Engenharia de Produção</li></a>
-        <a href="https://google.com"><li>Gestão em TI</li></a>
-        <a href="https://google.com"><li>Letras</li></a>
-        <a href="https://google.com"><li>Gestão Pública</li></a>
-      </ul>
-  </section>
-
-  <br><br>
-  <div>
-    <h4><strong>Eventos</strong></h4>
+  <section id="evento">
+    <h4>Evento</h4>
     <img src="images/C.jpg" />
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Veja sobre o vestibular ENEM!</p>
+    <p> Veja sobre o vestibular ENEM!</p>
+  </section>
+  <br><br>
+
+  <div id = "info">
+    <div id = "asiesquerda">
+      <h4>Sobre a biblioteca</h4>
+      <a href="https://pergamum.biblioteca.ifsp.edu.br/"><img src="images/library.jpeg" /></a>
+      <h4><strong>Clique na imagem acima para ir para a página da biblioteca do IFSP (externo)</strong></h4>
+    </div>
+
+    <aside id="asidireita">
+      <h2>Conheça o SUAP</h2>
+      <iframe width="460" height="240" src="https://www.youtube.com/embed/yVbOcB1ryh0?si=S2_Wlce1Yx8xS99I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </aside>
   </div>
 
-  <div>
-    <h4>Sobre a biblioteca</h4>
-    <a href="https://pergamum.biblioteca.ifsp.edu.br/"><img src="images/library.jpeg" /></a>
-    <h4><strong>Clique na imagem acima para ir para a página da biblioteca do IFSP (externo)</strong></h4>
-  </div>
-
-  <div>
-    <h2>Conheça o SUAP</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0?si=S2_Wlce1Yx8xS99I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-  </div>
   <script src="script.js"></script>
 
   <footer>
