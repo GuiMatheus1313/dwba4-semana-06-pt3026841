@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Página inicial</title>
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      #navegar{
+        float: right;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="topo">
+      <nav id="navegar">
+        <a href="index.html">HOME</a>
+        |<a href="Evento.html">EVENTO</a>
+        |<a href="Sobre.html"> SOBRE</a>
+        |<a href="Contato.html"> CONTATO</a>
+        |<a href="Entrar.html"> ENTRAR </a>
+      </nav>
+    </header>
+
+    <br>
+    <a href="https://ptb.ifsp.edu.br/"><img src="images/Logo.jpg" /> </a>
+    <br>
+    
+    <h1>Mande uma mensagem</h1>
+
+    <form action="" method="post">
+
+      <ul>
+        <li>
+          <label for="user">Nome:</label>
+          <input type="text" id="user" required="true" /><br>
+        </li>
+        <li>
+          <label for="email">Email:</label>
+          <input type="email" id="email" required /><br>
+        </li>
+        <li>
+          <label for="celular">Celular:</label> 
+          <input type="number" id="celular" required /> <p>Ex: (99) 99999-9999</p><br>
+        </li>
+
+        <li>
+          <label>Assunto:</label> 
+
+          <select name="assunto" required> 
+            <option value=""> -- Assunto -- </option>
+            <option value="contrato"> Contrato </option>
+            <option value="outro"> Outro </option>
+          </select><br>
+        </li><br>
+
+        <li>
+          <label for="texto">Mensagem:</label>
+          <textarea required id="texto">Insira sua mensagem aqui</textarea>
+        </li>
+
+        <li>
+          <fieldset>
+            <legend>Opções de Resposta</legend>
+            <input type="checkbox"> Email </input>
+            <input type="checkbox"> Telefone </input>
+          </fieldset>
+        </li>
+
+        <li>
+           <input type="submit" value="Enviar"></input>
+        </li>
+      </ul>
+    </form>
+    
+    <script src="script.js"></script>
+  </body>
+
+</html>
