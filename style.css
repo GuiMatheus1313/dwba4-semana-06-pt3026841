@@ -197,3 +197,37 @@ html {
 .formevento #enviar:hover, #resetar:hover{
   color: red;
 }
+
+.contatoform{
+  font-weight: bold;
+}
+
+.contatoform fieldset{
+  width: 200px;
+}
+
+.contatoform #nome, #email{
+  width: 300px;
+}
+
+.contatoform textarea{
+  resize: none;
+  width: 300px;
+  height: 100px;
+}
+
+.contatoform input, select{
+  border-radius: 5px 5px 5px 5px;
+}
+
+.contatoform #envio{
+  width: 90px;
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+}
+
+.contatoform #envio:hover{
+  color: red;
+}
+
