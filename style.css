@@ -126,3 +126,25 @@ html {
   margin-top: -20px;
 }
 
+.entraform{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.entraform label{
+  font-weight: bold;
+}
+
+.entraform #user, #pwd{
+  width: 200px;
+}
+
+.entraform #pwd{
+  margin-left: 12px;
+}
+
+.entraform #entrar{
+  border-radius: 20px 20px 20px 20px;
+  background-color: black;
+  color: white;
+}
