@@ -10,21 +10,33 @@
 </head>
 
 <body>
-  <header id="topo">
-    <nav id="navegar">
-      <a href="index.html">HOME</a>
-      |<a href="index.html">EVENTO</a>
-      |<a href="Sobre.html"> SOBRE</a>
-      |<a href="Contato.html"> CONTATO</a>
-      |<a href="Entrar.html"> ENTRAR </a>
-
-    </nav>
-  </header>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Cursos
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="ADS.html">Análise e Desenvolvimento de Sistemas</a>
+        <a href="https://google.com">Engenharia de Produção</a>
+        <a href="https://google.com">Gestão em TI</a>
+        <a href="https://google.com">Letras</a>
+        <a href="https://google.com">Gestão Pública</a>
+      </div>
+    </div>
+    <a href="Evento.html">EVENTO</a>
+    <a href="Sobre.html"> SOBRE</a>
+    <a href="Contato.html"> CONTATO</a>
+    <a href="Entrar.html"> ENTRAR </a>
+  </div>
   
 
   <br>
   <br>
-  <a href="https://ptb.ifsp.edu.br/"><img src="images/Logo.jpg" /> </a>
+  <div id="abaixonav">
+    <img src="images/Logo.jpg" />
+  </div>
+  
   <h1>Inscreva-se</h1><br>
 
   <form action="" method="post">
