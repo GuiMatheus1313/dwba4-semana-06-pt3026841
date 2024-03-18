@@ -163,3 +163,37 @@ html {
 .sobre img{
   width: 800px;
 }
+
+.formevento{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formevento fieldset{
+  width: 800px;
+}
+
+.formevento #user, #password, #auth_pass{
+  width: 500px;
+}
+
+.formevento #nome, #email, #github{
+  width: 500px;
+}
+
+.formevento legend{
+  font-weight: bold;
+}
+
+.formevento input, select{
+  border-radius: 5px 5px 5px 5px;
+}
+
+.formevento #enviar, #resetar{
+  width: 90px;
+  background-color: black;
+  color: white;
+}
+
+.formevento #enviar:hover, #resetar:hover{
+  color: red;
+}
