@@ -246,3 +246,19 @@ html {
   font-size: 20px;
   text-align: justify;
 }
+
+.EP p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.EP #ptitle{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.EP #ptext{
+  font-style: italic;
+  font-size: 20px;
+  text-align: justify;
+}
